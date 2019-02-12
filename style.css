@@ -1,0 +1,77 @@
+p{
+    font-size: 20px;
+}
+
+div{
+    background-color: dimgray;
+    color: lightcoral; 
+    display: inline-block;
+}
+
+#noPadding{
+    padding: 0;
+}
+
+#padding{
+    padding: 50px;
+}
+
+#topPadding{
+    padding-top: 50px; 
+}
+
+#rightPadding{
+    padding-right: 50px;
+}
+
+#leftPadding{
+    padding-left: 50px;
+}
+
+#bottomPadding{
+    padding-bottom: 50px;
+}
+
+/*order is always TOP RIGHT BOTTOM LEFT*/
+#mixedPadding{
+    padding: 10px 40px 100px 20px;
+}
+
+#dottedBorder{
+    border: 3px dotted navy;
+}
+
+#dashedBorder{
+    border: 2px dashed red;
+}
+
+#solidBorder{
+    border: 4px solid yellow;
+}
+
+#doubleBorder{
+    border: 10px double green
+}
+
+#grooveBorder{
+    border: 4px groove orange;
+}
+
+#ridgeBorder{
+    border: 5px ridge purple;
+}
+
+#insetBorder{
+    border: 10px inset gray;
+}
+
+#outsetBorder{
+    border: 10px outset gray;
+}
+
+/*TOP RIGHT BOTTOM LEFT*/
+#mixedBorder{
+    border-color:chartreuse;
+    border-style: groove outset inset ridge;
+    border-width: 20px;
+}
